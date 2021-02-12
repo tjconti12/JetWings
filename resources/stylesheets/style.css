@@ -1,0 +1,125 @@
+body {
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+header {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+ul {
+     text-align: center;
+     padding: 0;
+ }
+
+li {
+    display: inline;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+a {
+    color: black;
+    padding: 10px;
+}
+
+.styled {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.banner {
+    text-align: center;
+    background-image: url(../images/bannerPhoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    
+}
+
+.banner-text .styled {
+    font-size: 2.5rem;
+}
+
+#jet-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.jets {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("../images/cloudBackground.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 20px;
+    
+}
+
+.photo {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.photo img {
+    max-width: 100%;
+    border: black solid 2px;
+}
+
+#our-team {
+    text-align: center;
+    margin: 30px;
+    font-size: 2rem;
+}
+
+.team-info {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.employee {
+    width: 200px;
+    border: solid black 2px;
+    margin: 10px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.employee img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    li {
+        font-size: 1.2rem;
+    }
+}
+
+
